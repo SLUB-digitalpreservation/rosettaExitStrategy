@@ -15,9 +15,7 @@ This is part of the exit-strategy, for details, see asciidoc file
 file was tested with postgres-database sucessfully
 
 using:
-[source,bash]
---------------------------------------------------------
-$> psql -U romeyke -d exit_strategy \
-   -f rosetta_exit_strategy/tmp.sql -L rosetta_exit.log
---------------------------------------------------------
+
+    $> psql -U romeyke -d exit_strategy \
+       -f rosetta_exit_strategy/tmp.sql -L rosetta_exit.log
 
