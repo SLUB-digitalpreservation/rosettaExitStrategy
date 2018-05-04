@@ -73,7 +73,7 @@ sub write_tables_creation {
   say "\tid INT PRIMARY KEY DEFAULT nextval('serial'),";
   say "\taip_id INT NOT NULL REFERENCES aip (id),";
   say "\telement VARCHAR(30) NOT NULL,";
-  say "\tvalue VARCHAR(1024) NOT NULL";
+  say "\tvalue VARCHAR(8192) NOT NULL";
   say ");";
   # FILE
   say "/* create FILE table */";      
