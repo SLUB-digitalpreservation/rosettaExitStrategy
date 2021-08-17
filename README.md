@@ -1,21 +1,7 @@
-rosettaExitStrategy
-===================
+# !!! ATTENTION !!!
 
-This script processes a '/permanent'-directory of an ExLibris Rosetta digital
-longterm archive system and parses the metadata in AIP-packages and builds a
-database to find AIPs and associated metadata independently from the Exlibris
-Rosetta system.
+**This repository is not maintained any longer!**
 
-The script scans a given repository and creates an SQL script to create a
-database.
+Please find the latest and maintained version at SLUB's public GitLab instance.
 
-This is part of the exit-strategy, for details, see asciidoc file
-'doc/exit_strategie.asciidoc' (also contains ER-diagram for database)
-
-file was tested with postgres-database sucessfully
-
-using:
-
-    $> psql -U romeyke -d exit_strategy \
-       -f rosetta_exit_strategy/tmp.sql -L rosetta_exit.log
-
+You can clone it using: `git clone https://git.slub-dresden.de/digital-preservation/rosettaExitStrategy.git`.

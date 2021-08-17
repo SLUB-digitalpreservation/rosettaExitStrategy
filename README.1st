@@ -1,6 +1,0 @@
-- the textfile 'exit_strategie.asciidoc' is a asciidoc document, it can
-be used to generate various output files using asciidoc. As an example
-to generate html-output, call: "asciidoc exit_strategie.asciidoc". To get
-correctly rendered ER-graphs, the asciidoc filter for 'ditaa' must be
-installed. To colorize the code-examples, the 'source-highlight'
-programm must be installed as well.
